@@ -69,7 +69,7 @@ RTL realization
 ![img](rtl.png)
 
 ### Full adder
-1[img](rtl1.png)
+![img](rtl1.png)
 ### TIMING DIAGRAM
 ### Half adder
 ![img](wave.png)
