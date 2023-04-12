@@ -41,7 +41,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by:praveen s
 RegisterNumber:  212222240077
 */
-### half adder
+### Half adder
 ```
 module tt(a,b,sum,carry);
 input a,b;
@@ -50,18 +50,40 @@ xor(sum,a,b);
 and(carry,a,b);
 endmodule
 ```
+### Full adder
+```
+module dd(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+assign sum=((a^b)^c);
+assign carry=((a&b)|(b&c)|(c&a));
+endmodule
+```
 
 Logic symbol & Truthtable
 RTL realization
 
 ### Output:
 ### RTL
+### Half adder
 ![img](rtl.png)
-### TIMING DIAGRAM
 
+### Full adder
+1[img](rtl1.png)
+### TIMING DIAGRAM
+### Half adder
 ![img](wave.png)
 
+### Full adder
+![img](wave1.png)
+
 ### TRUTH TABLE 
+### Half adder
 ![img](truth.png)
 
+### Full adder
+![img](truth1.png)
 ### Result:
+Thus, a half adder and full adder circuit is designed to verify its truth table in Quartus using Verilog programming.
+
+
