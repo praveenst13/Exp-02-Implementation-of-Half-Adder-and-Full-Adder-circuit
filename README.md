@@ -56,9 +56,12 @@ RTL realization
 
 ### Output:
 ### RTL
+![img](rtl.png)
 ### TIMING DIAGRAM
 
+![img](wave.png)
 
 ### TRUTH TABLE 
+![img](truth.png)
 
 ### Result:
